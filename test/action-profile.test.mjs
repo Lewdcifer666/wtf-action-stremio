@@ -329,11 +329,33 @@ if (fs.existsSync(discDir)) {
 check("X1", "no WATCHED baseline identity appears in public data",
   !sourceItems.some(i => forms(i).some(f => watchedForms.has(f))),
   sourceItems.filter(i => forms(i).some(f => watchedForms.has(f))).map(i => i.title).join(", "));
-check("X2", "the watched set expands both franchises to individual films",
-  watched.length === 17, `expected 17 (10 Fast & Furious, 4 John Wick, Alice in Borderland, The Matrix, The Boys), got ${watched.length}`);
-{
+check("X2", "the watched set contains ONLY explicitly confirmed titles",
+  watched.length === 11,
+  `expected 11 (the ten Fast & Furious entries plus Alice in Borderland), got ${watched.length}`);
+check("X2b", "John Wick is NOT a watched exclusion",
+  !watchedForms.has("movie:tt2911666"),
+  "only snippets and clips were seen; it must stay available to watch and rate");
+check("X2c", "John Wick Chapters 2-4 are NOT watched exclusions",
+  ["tt4425200", "tt6146586", "tt10366206"].every(id => !watchedForms.has(`movie:${id}`)),
+  "franchise membership never propagates watched status");
+check("X2d", "John Wick remains eligible for ordinary Action discovery", (() => {
   const r = runValidateWith([item(DENSE, { imdb_id: "tt2911666", title: "John Wick", year: 2014 })]);
-  check("X3", "ingesting a watched franchise member is REJECTED",
+  return r.code === 0;
+})(), "an unwatched structural anchor must stay recommendable");
+check("X2e", "The Matrix and The Boys are NOT watched exclusions",
+  !watchedForms.has("movie:tt0133093") && !watchedForms.has("series:tt1190634"),
+  "recollection and partial-season exposure are not confirmation");
+check("X2f", "every watched entry accounts for how watching was confirmed",
+  profile.baseline_evidence.items.filter(i => i.evidence_type === "watched")
+    .every(i => typeof i.watched_confirmation === "string" && i.watched_confirmation.trim()));
+check("X2g", "no bootstrap title collides with the corrected evidence set",
+  new Set(sourceItems.map(i => `${i.type}:${i.imdb_id}`)).size === sourceItems.length
+  && !sourceItems.some(i => forms(i).some(fm => watchedForms.has(fm))));
+{
+  // Fast & Furious is the one franchise whose watched status the user
+  // explicitly re-confirmed, so it is the correct example here.
+  const r = runValidateWith([item(DENSE, { imdb_id: "tt1596343", title: "Fast Five", year: 2011 })]);
+  check("X3", "ingesting a CONFIRMED watched franchise member is REJECTED",
     r.code !== 0 && /WATCHED baseline evidence/.test(r.output));
 }
 {
