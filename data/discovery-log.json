@@ -1,4 +1,18 @@
 {
   "schema_version": 1,
-  "runs": []
+  "runs": [
+    {
+      "run_id": "2026-08-28-a1",
+      "timestamp": "2026-08-28T20:16:34Z",
+      "searched": 3,
+      "accepted": 2,
+      "rejected": 1,
+      "duplicates": 0,
+      "accepted_items": [
+        "tt14846026",
+        "tt21237030"
+      ],
+      "rejection_summary": "Researched three candidates against the static baseline profile. Two accepted: Carter (81) and Sisu (65), both dense and varied with a capable lead. Warrior was rejected at 52 - the martial arts are excellent but arrive in short bursts, and the period presentation plus heavy drama emphasis pull it under the 60 minimum; that is a verdict about this profile, not about the show. No candidate tripped the action_density hard exclusion this run. Personalization is dormant: no personalized-scores.json exists and none was created. Zero duplicates against the identity set."
+    }
+  ]
 }
