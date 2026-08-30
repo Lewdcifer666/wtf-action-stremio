@@ -13,6 +13,19 @@
         "tt21237030"
       ],
       "rejection_summary": "Researched three candidates against the static baseline profile. Two accepted: Carter (81) and Sisu (65), both dense and varied with a capable lead. Warrior was rejected at 52 - the martial arts are excellent but arrive in short bursts, and the period presentation plus heavy drama emphasis pull it under the 60 minimum; that is a verdict about this profile, not about the show. No candidate tripped the action_density hard exclusion this run. Personalization is dormant: no personalized-scores.json exists and none was created. Zero duplicates against the identity set."
+    },
+    {
+      "run_id": "2026-08-30-a1",
+      "timestamp": "2026-08-30T06:01:11Z",
+      "searched": 2,
+      "accepted": 2,
+      "rejected": 0,
+      "duplicates": 0,
+      "accepted_items": [
+        "tt13652286",
+        "tt13357520"
+      ],
+      "rejection_summary": "Researched two candidates against the static baseline profile and accepted both: Fight or Flight (62) and Heads of State (76). Fight or Flight cleared the minimum on recurring close-quarters combat and stunt-heavy action after its setup; Heads of State cleared comfortably on varied action, pursuit structure, spectacle, conspiracy and ensemble charisma. No candidate tripped the action_density hard exclusion or any combination guardrail. Personalization remains dormant because data/personalized-scores.json is absent. Zero duplicates against the public identity set and watched-exclusion set."
     }
   ]
 }
