@@ -26,6 +26,19 @@
         "tt13357520"
       ],
       "rejection_summary": "Researched two candidates against the static baseline profile and accepted both: Fight or Flight (62) and Heads of State (76). Fight or Flight cleared the minimum on recurring close-quarters combat and stunt-heavy action after its setup; Heads of State cleared comfortably on varied action, pursuit structure, spectacle, conspiracy and ensemble charisma. No candidate tripped the action_density hard exclusion or any combination guardrail. Personalization remains dormant because data/personalized-scores.json is absent. Zero duplicates against the public identity set and watched-exclusion set."
+    },
+    {
+      "run_id": "2026-08-31-a1",
+      "timestamp": "2026-08-31T06:02:44Z",
+      "searched": 2,
+      "accepted": 2,
+      "rejected": 0,
+      "duplicates": 0,
+      "accepted_items": [
+        "tt28259207",
+        "tt28349451"
+      ],
+      "rejection_summary": "Researched two candidates against the static baseline profile and accepted both: Kill (60) and The Shadow Strays (74). Kill cleared the minimum exactly on sustained close-quarters train combat after a short setup; The Shadow Strays cleared comfortably on high-density, varied gunplay, blade and melee action across its long runtime. No candidate tripped the action_density hard exclusion or any combination guardrail. Personalization remains dormant because data/personalized-scores.json is absent. Zero duplicates against the public identity set and watched-exclusion set."
     }
   ]
 }
