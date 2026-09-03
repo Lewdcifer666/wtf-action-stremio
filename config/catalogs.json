@@ -2,7 +2,7 @@
   "schema_version": 2,
   "manifest": {
     "id": "com.github.wtfaction.discovery",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "WTF Action Discovery",
     "description": "Automated action that actually runs on action: high density across the whole runtime, stunts, chases and combat, plus high-concept, conspiracy, sci-fi and deadly-game hooks. Titles with three big sequences and ninety quiet minutes are excluded on purpose."
   },
