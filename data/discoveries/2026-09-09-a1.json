@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-09-a1",
+  "timestamp": "2026-09-09T06:12:39Z",
+  "items": [
+    {
+      "imdb_id": "tt13923084",
+      "type": "movie",
+      "title": "Boy Kills World",
+      "year": 2024,
+      "status": "watch",
+      "match_score": 78,
+      "reason": "A deaf revenge fighter tears through a dystopian ruling family in a 111-minute barrage of frequent elaborate fights, gunplay, improvised weapons and stunt-heavy martial arts; the action occupies most of the runtime, with splatter-comedy and stylized twists providing variety despite some repetitive beats.",
+      "tags": [],
+      "added_at": "2026-09-09T06:12:39Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-09-09-a1",
+      "source": "https://www.imdb.com/title/tt13923084/ ; https://www.commonsensemedia.org/movie-reviews/boy-kills-world ; https://cinapse.net/2024/04/review-boy-kills-world-truth-mostly-in-advertising/ ; https://www.cinemablend.com/movies/boy-kills-world-review",
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 9,
+        "action_variety": 7,
+        "gunplay": 5,
+        "vehicle_action": 1,
+        "stunt_work": 9,
+        "chase_pursuit": 5,
+        "melee_combat": 10,
+        "destruction_spectacle": 5,
+        "mystery": 4,
+        "investigation": 0,
+        "conspiracy": 4,
+        "undercover_mole": 2,
+        "high_concept": 8,
+        "sci_fi_elements": 5,
+        "fantasy_elements": 3,
+        "deadly_game": 3,
+        "rule_discovery": 4,
+        "visual_quality": 7,
+        "retro_visual_style": 0,
+        "visual_spectacle": 6,
+        "pace_speed": 8,
+        "wtf_comedy": 8,
+        "badass_protagonist": 10,
+        "ensemble_charisma": 6,
+        "setting_variety": 7,
+        "suspense": 6,
+        "action_repetition": 6,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 0,
+        "drama_focus": 3
+      },
+      "dna_confidence": 0.86,
+      "dna_tags": [
+        "martial_arts",
+        "gun_fu",
+        "revenge",
+        "post_apocalyptic"
+      ]
+    }
+  ]
+}
