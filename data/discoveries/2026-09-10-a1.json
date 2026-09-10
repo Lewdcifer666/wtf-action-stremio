@@ -52,58 +52,10 @@
         "drama_focus": 3
       },
       "dna_confidence": 0.9,
-      "dna_tags": ["gun_fu", "assassin"]
-    },
-    {
-      "imdb_id": "tt12263384",
-      "type": "movie",
-      "title": "Extraction 2",
-      "year": 2023,
-      "status": "watch",
-      "match_score": 75,
-      "reason": "A prison extraction turns into a long-form gauntlet: an extended prison-and-train escape rolls into a Vienna assault and a final close-quarters showdown, with gunfire, vehicles, helicopters and stunt-heavy fights occupying most of the runtime.",
-      "tags": [],
-      "added_at": "2026-09-10T06:00:24Z",
-      "added_by": "daily-automation",
-      "discovery_run_id": "2026-09-10-a1",
-      "source": "https://www.imdb.com/title/tt12263384/ ; https://www.rottentomatoes.com/m/extraction_2 ; https://www.avclub.com/extraction-2-review-chris-hemsworth-1850539423 ; https://www.tvguide.com/news/extraction-2-review-chris-hemsworth-action-sequel/",
-      "dna": {
-        "action_density": 9,
-        "action_intensity": 9,
-        "action_variety": 9,
-        "gunplay": 9,
-        "vehicle_action": 8,
-        "stunt_work": 9,
-        "chase_pursuit": 8,
-        "melee_combat": 8,
-        "destruction_spectacle": 8,
-        "mystery": 1,
-        "investigation": 0,
-        "conspiracy": 2,
-        "undercover_mole": 0,
-        "high_concept": 4,
-        "sci_fi_elements": 0,
-        "fantasy_elements": 0,
-        "deadly_game": 0,
-        "rule_discovery": 0,
-        "visual_quality": 8,
-        "retro_visual_style": 1,
-        "visual_spectacle": 9,
-        "pace_speed": 9,
-        "wtf_comedy": 2,
-        "badass_protagonist": 9,
-        "ensemble_charisma": 6,
-        "setting_variety": 7,
-        "suspense": 7,
-        "action_repetition": 4,
-        "military_focus": 3,
-        "superhero": 0,
-        "sports_fighting": 0,
-        "romance_focus": 1,
-        "drama_focus": 4
-      },
-      "dna_confidence": 0.88,
-      "dna_tags": ["gun_fu", "survival_run"]
+      "dna_tags": [
+        "gun_fu",
+        "assassin"
+      ]
     }
   ]
 }
