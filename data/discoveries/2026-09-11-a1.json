@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-11-a1",
+  "timestamp": "2026-09-11T06:09:39Z",
+  "items": [
+    {
+      "imdb_id": "tt20316748",
+      "type": "movie",
+      "title": "Twilight of the Warriors: Walled In",
+      "year": 2024,
+      "status": "watch",
+      "match_score": 70,
+      "reason": "A fugitive's refuge in Kowloon Walled City becomes a dense run of bare-knuckle brawls, parkour chases and escalating martial-arts battles; whole-runtime reviews describe the 126-minute film as action-stuffed and relentless, with wirework and fantastical combat adding variety.",
+      "tags": [],
+      "added_at": "2026-09-11T06:09:39Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-09-11-a1",
+      "source": "https://www.imdb.com/title/tt20316748/ ; https://www.rottentomatoes.com/m/twilight_of_the_warriors_walled_in ; https://filmthreat.com/reviews/twilight-of-the-warriors-walled-in-alan-ng/ ; https://www.theguardian.com/film/article/2024/may/17/cannes-twilight-of-the-warriors-walled-in-review-hong-kong-kowloon-walled-city",
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 9,
+        "action_variety": 8,
+        "gunplay": 2,
+        "vehicle_action": 3,
+        "stunt_work": 9,
+        "chase_pursuit": 6,
+        "melee_combat": 10,
+        "destruction_spectacle": 5,
+        "mystery": 3,
+        "investigation": 1,
+        "conspiracy": 4,
+        "undercover_mole": 1,
+        "high_concept": 5,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 4,
+        "deadly_game": 0,
+        "rule_discovery": 1,
+        "visual_quality": 9,
+        "retro_visual_style": 2,
+        "visual_spectacle": 8,
+        "pace_speed": 8,
+        "wtf_comedy": 4,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 8,
+        "setting_variety": 4,
+        "suspense": 7,
+        "action_repetition": 4,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 1,
+        "romance_focus": 0,
+        "drama_focus": 5
+      },
+      "dna_confidence": 0.88,
+      "dna_tags": [
+        "martial_arts"
+      ]
+    }
+  ]
+}
