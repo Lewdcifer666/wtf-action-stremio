@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-09-12-a1",
+  "timestamp": "2026-09-12T06:05:12Z",
+  "items": [
+    {
+      "imdb_id": "tt6116856",
+      "type": "movie",
+      "title": "The Night Comes for Us",
+      "year": 2018,
+      "status": "watch",
+      "match_score": 68,
+      "reason": "A Triad enforcer's attempt to protect a young survivor turns into two hours of escalating gunfire, knife work and brutal martial-arts combat; whole-runtime reviews say the action starts quickly and then rarely lets up, while distinct locations and fight configurations keep the carnage varied.",
+      "tags": [],
+      "added_at": "2026-09-12T06:05:12Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-09-12-a1",
+      "source": "https://www.wikidata.org/wiki/Q16258397 ; https://www.rottentomatoes.com/m/the_night_comes_for_us ; https://thefilmstage.com/review-the-night-comes-for-us-carves-a-the-raid-esque-tableaux-of-carnage/ ; https://www.slashfilm.com/561241/the-night-comes-for-us-review-fantastic-fest/",
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 10,
+        "action_variety": 8,
+        "gunplay": 4,
+        "vehicle_action": 1,
+        "stunt_work": 9,
+        "chase_pursuit": 5,
+        "melee_combat": 10,
+        "destruction_spectacle": 4,
+        "mystery": 2,
+        "investigation": 1,
+        "conspiracy": 3,
+        "undercover_mole": 0,
+        "high_concept": 4,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 8,
+        "retro_visual_style": 1,
+        "visual_spectacle": 7,
+        "pace_speed": 8,
+        "wtf_comedy": 1,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 7,
+        "setting_variety": 6,
+        "suspense": 7,
+        "action_repetition": 4,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 4
+      },
+      "dna_confidence": 0.86,
+      "dna_tags": [
+        "martial_arts",
+        "assassin",
+        "survival_run",
+        "urban_night"
+      ]
+    }
+  ]
+}
