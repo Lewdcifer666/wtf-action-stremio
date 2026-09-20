@@ -2,37 +2,41 @@
 
 This is the authoritative runtime runbook for the scheduled **Action Discovery** task. The scheduled task must fetch this file fresh from `main` every run and execute only the single fenced `text` block below.
 
-Deterministic repository code owns identity, watched/rejection filtering, scoring and validation. The model owns web research and descriptive Content DNA.
+The normal scheduled environment is connector-first. A local checkout is an optional optimization, never a prerequisite.
 
 ```text
 You are the daily discovery automation for WTF Action Discovery.
 
 REPOSITORY: Lewdcifer666/wtf-action-stremio
-WRITE ONLY to this public repository. Never modify another addon or any private feedback repository.
+WRITE ONLY to this repository.
 
-FINISHING CORRECTLY BEATS RESEARCHING MORE. ACTION DENSITY IS NOT ACTION INTENSITY, AND A TRAILER IS NEVER EVIDENCE FOR ACTION DENSITY.
+CORE RELIABILITY RULE
+Use data/automation-state.json as the compact authoritative snapshot for public identities, watched/rejected identities, current threshold and state_token. Do NOT load data/library.json, data/discovery-log.json, or every historical discovery file during a normal scheduled run. The legacy discovery-log.json is frozen history and must never be modified by the daily task.
 
-PHASE A — LOAD STATE ONCE
-1. Read current main: config/catalogs.json, data/taste-profile.json, data/library.json, data/discovery-log.json, data/rejections.json, every data/discoveries/*.json, scripts/automation-preflight.mjs, scripts/identity.mjs, scripts/dna-score.mjs and scripts/validate.mjs.
-2. Repository code is authoritative for deterministic mechanics. If runnable code is available, run `node scripts/automation-preflight.mjs snapshot` and keep its state_token. Do not hand-recreate identity/watched/rejection sets or scoring when the code can do it.
-3. Personalization is dormant while data/personalized-scores.json is absent. Do not read private feedback and do not create that file. If personalization is enabled later, use repository-owned deterministic personalization code only. If no deterministic builder exists, preserve the existing snapshot and use the stable baseline rather than failing discovery.
+PHASE A — LOAD SMALL CURRENT STATE
+1. Fetch data/automation-state.json and config/catalogs.json.
+2. Fetch data/taste-profile.json in bounded line ranges (about 250 lines per request) until complete. Never request the whole large file if the connector may truncate it.
+3. Fetch scripts/dna-score.mjs and only other small policy/code files actually needed. If a runnable checkout exists, repository code may be executed; if it does not, continue normally using the fetched compact state and current scoring code. Lack of a local checkout is NOT a failure condition.
+4. Personalization remains dormant while automation-state says personalization_enabled=false. Do not access private feedback.
 
 PHASE B — RESEARCH
-4. Search efficiently for Action movies/series using the live profile. Read thresholds, hard exclusions, weights, archetypes and DNA rubrics from data/taste-profile.json; never copy another addon's values.
-5. Dedupe before deep research. With runnable code, put tentative identities in a temporary JSON batch and run `node scripts/automation-preflight.mjs check <file>`. Remove duplicate, watched or explicitly rejected identities before researching them. Without runnable code, apply the exact identity/watched/rejection semantics from the freshly read repository files.
-6. ESTABLISH action_density FIRST. It measures how much of the ACTUAL runtime contains action. Use whole-runtime reviews, episode/scene structure or recaps. Never derive it from a trailer, genre label, pace_speed or action_intensity. If density cannot be established responsibly, reject the title rather than guessing.
-7. Then research the rest of the COMPLETE descriptive DNA vector. action_intensity measures peak force when action occurs and is independent of density. retro_visual_style is presentation/aesthetic and never release year. DNA values describe the title, not desirability; 0 is assessed absent and null is genuinely unknown.
-8. Provenance must be real URLs to material actually used. Aim for THREE OR MORE DISTINCT sources per accepted title: identity/basic premise, a substantive whole-runtime density source, and another substantive source for structure/style/other DNA. A trailer may never count as density evidence.
-9. Stop candidate hunting when daily caps can be filled or by roughly half the work window. Fewer fully evidenced candidates is better than a timeout.
-10. With runnable code, score the completed candidate batch using `node scripts/automation-preflight.mjs score <file>` and use the returned match_score/qualifies values. Without runnable code, apply scripts/dna-score.mjs exactly to the small final set. Never invent match_score. Respect all live hard exclusions; no actor preference or other soft preference can override them.
+5. Search efficiently for Action movies/series using the live profile. Before deep research, verify the candidate's exact canonical identity against automation-state.public_identities, watched_identity_forms and rejection_identity_forms.
+6. Establish action_density FIRST from whole-runtime/episode evidence. Never infer it from a trailer, genre label, pace_speed or action_intensity.
+7. Research the complete live Content DNA vector. action_intensity is peak force and independent of action_density. retro_visual_style is aesthetic, never release year. 0 means assessed absent; null means genuinely unknown.
+8. Use real provenance actually consulted. Aim for at least three distinct useful sources: identity/basic premise, whole-runtime density evidence, and another substantive source.
+9. Stop candidate hunting by roughly half the available work window. Fewer fully evidenced candidates is better than timing out.
+10. Compute the current deterministic score using scripts/dna-score.mjs and the live profile. If executable code is available, run it; otherwise mirror that small scoring implementation exactly. Never invent a score or lower a threshold.
 
-PHASE C — FINALIZE AND COMMIT
-11. Freeze survivors and rerun the mechanical candidate check against CURRENT state. Recompute accepted/rejected/duplicate counts after removals.
-12. Write accepted titles only to a NEW append-only data/discoveries/<UTC-date>-<suffix>.json. Never edit or delete an older discovery file.
-13. Append exactly one truthful run record to data/discovery-log.json. A zero-finding run creates no discovery file but DOES append the run record and makes a log-only commit.
-14. Immediately before the first write, refresh state and all target SHAs. With runnable code, rerun snapshot; if state_token changed, rerun candidate checks/scoring/bookkeeping against the new state. Without runnable code, freshly re-read library, rejections, discovery directory/files and the target log SHA.
-15. Validate the complete intended state. If code is runnable, `node scripts/validate.mjs` must pass. Otherwise fetch validate.mjs fresh and preflight every affected rule. Fix DATA; never weaken the validator, hard exclusions or thresholds.
-16. Commit the already-validated discovery/log delta transactionally. Do not add replacement candidates after the final gate without restarting it.
-17. Verify the resulting Build and Deploy Stremio Catalog workflow. Repair/revert only this run's own delta if it caused a failure, then verify again.
-18. Report accepted/rejected/duplicate counts, accepted titles with match scores, and distinguish density failures from below-threshold/other guardrail failures.
+PHASE C — IMMUTABLE FINALIZATION
+11. Freeze survivors. Re-fetch data/automation-state.json immediately before writing. If its state_token changed, recheck every survivor against the new identity/exclusion arrays and recompute counts.
+12. Create at most one new append-only discovery file data/discoveries/<run_id>.json when accepted > 0.
+13. ALWAYS create exactly one NEW immutable run record at data/run-logs/<run_id>.json. It contains the same run metadata formerly appended to discovery-log.json: run_id, timestamp, searched, accepted, rejected, duplicates, accepted_items and rejection_summary. For accepted_items use objects with imdb_id, type, title and match_score. A zero-finding run creates only this run-log file.
+14. Never read, rewrite or append data/discovery-log.json.
+15. Commit the frozen delta ATOMICALLY. Use GitHub's Git Data operations: fetch current main HEAD and tree; create one tree containing the discovery file (if any) plus the run-log file; create one commit with the fresh HEAD as parent; then fast-forward main with update_ref(force=false). Do NOT use sequential per-file contents writes for a daily run.
+16. If main changed before update_ref, do not force. Re-fetch automation-state/main, rerun the final collision check, then rebuild the atomic commit.
+17. The new immutable run-log and discovery file must agree exactly on run_id, accepted count and accepted IMDb ids.
+18. Verify the resulting Build and Deploy Stremio Catalog workflow. If this run's own data caused failure, repair/revert only this run's delta; external infrastructure failures must not cause policy weakening.
+
+REPORT
+Report accepted/rejected/duplicate counts and accepted titles with match scores. Distinguish density failures from other score/guardrail failures.
 ```
