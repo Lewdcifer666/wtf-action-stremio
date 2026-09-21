@@ -14,7 +14,7 @@ CORE RELIABILITY RULE
 Use data/automation-state.json as the compact authoritative snapshot for public identities, watched/rejected identities, current threshold and state_token. Do NOT load data/library.json, data/discovery-log.json, or every historical discovery file during a normal scheduled run. The legacy discovery-log.json is frozen history and must never be modified by the daily task.
 
 PHASE A — LOAD SMALL CURRENT STATE
-1. Fetch data/automation-state.json and config/catalogs.json.
+1. Fetch data/automation-state.json and config/catalogs.json. Record the returned blob SHA for both files, and record the blob SHA for data/taste-profile.json and scripts/dna-score.mjs when you fetch them; these are the policy-version locks for this run.
 2. Fetch data/taste-profile.json in bounded line ranges (about 250 lines per request) until complete. Never request the whole large file if the connector may truncate it.
 3. Fetch scripts/dna-score.mjs and only other small policy/code files actually needed. If a runnable checkout exists, repository code may be executed; if it does not, continue normally using the fetched compact state and current scoring code. Lack of a local checkout is NOT a failure condition.
 4. Personalization remains dormant while automation-state says personalization_enabled=false. Do not access private feedback.
@@ -28,9 +28,10 @@ PHASE B — RESEARCH
 10. Compute the current deterministic score using scripts/dna-score.mjs and the live profile. If executable code is available, run it; otherwise mirror that small scoring implementation exactly. Never invent a score or lower a threshold.
 
 PHASE C — IMMUTABLE FINALIZATION
-11. Freeze survivors. Re-fetch data/automation-state.json immediately before writing. If its state_token changed, recheck every survivor against the new identity/exclusion arrays and recompute counts.
-12. Create at most one new append-only discovery file data/discoveries/<run_id>.json when accepted > 0.
-13. ALWAYS create exactly one NEW immutable run record at data/run-logs/<run_id>.json. It contains the same run metadata formerly appended to discovery-log.json: run_id, timestamp, searched, accepted, rejected, duplicates, accepted_items and rejection_summary. For accepted_items use objects with imdb_id, type, title and match_score. A zero-finding run creates only this run-log file.
+11. Freeze survivors. Re-fetch data/automation-state.json immediately before writing. If its state_token changed, recheck every survivor against the new identity/exclusion arrays and recompute counts. Also re-fetch the blob SHAs for config/catalogs.json, data/taste-profile.json and scripts/dna-score.mjs; if any policy SHA changed, reload that policy and recompute scoring before writing.
+11a. For EVERY survivor, perform a fresh exact GitHub repository search for its IMDb id on current main. Treat matches in data/library.json or data/discoveries/*.json as duplicates; matches in data/rejections.json or watched baseline-evidence sections of data/taste-profile.json as exclusions. Ignore mentions in run logs, documentation or source code. This candidate-specific search is the final race-safe collision gate even if automation-state refresh is momentarily behind main.
+12. Choose a unique run_id and probe both data/run-logs/<run_id>.json and data/discoveries/<run_id>.json before writing. If either path already exists, increment the run suffix and probe again. Never overwrite an existing run-log or discovery file. Create at most one new append-only discovery file data/discoveries/<run_id>.json when accepted > 0.
+13. ALWAYS create exactly one NEW immutable run record at data/run-logs/<run_id>.json. It contains run_id, timestamp, searched, accepted, rejected, duplicates, accepted_items and rejection_summary. For accepted_items use objects with imdb_id, type, title and match_score. rejection_summary may be a string, array or object; do not use null. A zero-finding run creates only this run-log file.
 14. Never read, rewrite or append data/discovery-log.json.
 15. Commit the frozen delta ATOMICALLY. Use GitHub's Git Data operations: fetch current main HEAD and tree; create one tree containing the discovery file (if any) plus the run-log file; create one commit with the fresh HEAD as parent; then fast-forward main with update_ref(force=false). Do NOT use sequential per-file contents writes for a daily run.
 16. If main changed before update_ref, do not force. Re-fetch automation-state/main, rerun the final collision check, then rebuild the atomic commit.
