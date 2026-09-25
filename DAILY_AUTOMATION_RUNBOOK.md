@@ -17,7 +17,7 @@ PHASE A — LOAD SMALL CURRENT STATE
 1. Fetch data/automation-state.json and config/catalogs.json. Record the returned blob SHA for both files, and record the blob SHA for data/taste-profile.json and scripts/dna-score.mjs when you fetch them; these are the policy-version locks for this run.
 2. Fetch data/taste-profile.json in bounded line ranges (about 250 lines per request) until complete. Never request the whole large file if the connector may truncate it.
 3. Fetch scripts/dna-score.mjs and only other small policy/code files actually needed. If a runnable checkout exists, repository code may be executed; if it does not, continue normally using the fetched compact state and current scoring code. Lack of a local checkout is NOT a failure condition.
-4. Personalization remains dormant while automation-state says personalization_enabled=false. Do not access private feedback.
+4. Personalization remains optional and dormant while automation-state says personalization_enabled=false. This is effective use after freshness, validation and applicability checks; file existence alone never enables it. Keep stable baseline DNA scores until a fresh, valid snapshot has been deterministically rebuilt from the complete current feedback state. Never renew an expired snapshot timestamp or reuse old scores to make it active. Do not access private feedback.
 
 PHASE B — RESEARCH
 5. Search efficiently for Action movies/series using the live profile. Before deep research, verify the candidate's exact canonical identity against automation-state.public_identities, watched_identity_forms and rejection_identity_forms.
