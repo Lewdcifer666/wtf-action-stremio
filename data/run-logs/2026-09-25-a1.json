@@ -1,0 +1,1 @@
+{"run_id":"2026-09-25-a1","timestamp":"2026-09-25T06:12:58Z","searched":4,"accepted":1,"rejected":0,"duplicates":3,"accepted_items":[{"imdb_id":"tt0327785","type":"movie","title":"The Killer's Game","match_score":60}],"rejection_summary":{"density_failures":0,"score_guardrail_failures":0,"details":[]}}
