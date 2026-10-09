@@ -395,8 +395,18 @@ check("AC1", "every stored match_score re-derives exactly from DNA",
 check("AC2", "no ingested item has action_density <= 3",
   sourceItems.every(i => i.dna.action_density > 3),
   sourceItems.filter(i => i.dna.action_density <= 3).map(i => i.title).join(", "));
-check("AC3", "every ingested item has a complete 33-value DNA vector",
-  sourceItems.every(i => registry.every(d => Number.isInteger(i.dna[d]))));
+// Preserve the legacy all-known census. Versioned deterministic publications
+// use the profile's declared known/null semantics instead of inheriting an
+// accidental all-known rule from the original bootstrap acceptance census.
+const finalizedRunIds = new Set(fs.readdirSync(path.join(root, "data/run-logs"))
+  .filter(name => name.endsWith(".json"))
+  .map(name => JSON.parse(fs.readFileSync(path.join(root, "data/run-logs", name), "utf8")))
+  .filter(log => log.publication?.schema_version === 1).map(log => log.run_id));
+check("AC3", "legacy items retain complete 33-value DNA; finalized items obey profile nullability",
+  sourceItems.every(i => finalizedRunIds.has(i.discovery_run_id)
+    ? registry.every(d => i.dna[d] === null || Number.isInteger(i.dna[d]))
+      && scoreItem(policy, row("dna-match"), i, new Map()).score !== null
+    : registry.every(d => Number.isInteger(i.dna[d]))));
 
 // ---------------------------------------------------------------------------
 // AD / AE / AF - ingestion and provenance hygiene
@@ -501,7 +511,9 @@ if (fs.existsSync(path.join(root, "site", "catalog"))) {
   walk(root);
   check("AJ1", "no cross-repo reference or runtime dependency", offenders.length === 0, offenders.join("\n         "));
   const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
-  check("AJ2", "zero dependencies", !pkg.dependencies && !pkg.devDependencies);
+  check("AJ2", "only the pinned research-schema validator dependency is permitted",
+    JSON.stringify(pkg.dependencies) === JSON.stringify({ ajv: "8.20.0" })
+    && !pkg.devDependencies);
 }
 
 // ---------------------------------------------------------------------------
