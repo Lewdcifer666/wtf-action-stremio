@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-10-11",
+  "candidates": [
+    {
+      "imdb_id": "tt9412268",
+      "type": "movie",
+      "title": "Furie",
+      "year": 2019,
+      "reason": "Across its 98-minute runtime, the short rural setup gives way to a sustained rescue pursuit, a motorcycle attack, repeated fights through Saigon and a climactic train battle. Cinema.de reports a modern, dynamic style and high pace with few exceptions; Kung-fu Kingdom traces frequent combat through the middle and finale. Film Inquiry offers a useful counterpoint: some exposition interrupts the action, so the density assessment is strong but not near-continuous. The hook is a determined, physically formidable mother facing traffickers, not high-concept sci-fi; most action is hand-to-hand with limited vehicular set pieces.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt9412268/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.cinema.de/film/furie,9879664.html",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://kungfukingdom.com/furie-movie-review/",
+          "purpose": "structure"
+        },
+        {
+          "url": "https://www.filminquiry.com/furie-2019-review/",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 7,
+        "action_intensity": 8,
+        "action_variety": 5,
+        "gunplay": 1,
+        "vehicle_action": 5,
+        "stunt_work": 8,
+        "chase_pursuit": 8,
+        "melee_combat": 9,
+        "destruction_spectacle": 3,
+        "mystery": 2,
+        "investigation": 3,
+        "conspiracy": 2,
+        "undercover_mole": 0,
+        "high_concept": 2,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 1,
+        "visual_spectacle": 6,
+        "pace_speed": 8,
+        "wtf_comedy": 0,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 3,
+        "setting_variety": 7,
+        "suspense": 7,
+        "action_repetition": 4,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 0,
+        "drama_focus": 4
+      },
+      "dna_confidence": 0.76,
+      "dna_tags": [
+        "martial_arts",
+        "survival_run"
+      ]
+    },
+    {
+      "imdb_id": "tt19713090",
+      "type": "movie",
+      "title": "The Killer",
+      "year": 2022,
+      "reason": "The 95-minute South Korean retired-hitman rescue thriller builds a chain of fights and shootings in distinct locations. City on Fire describes a quick setup followed by action across much of the film; Mark Reviews Movies details repeated brawls and shootouts at a rink, hotel, port and estate. TheWrap praises inventive guns/axes/melee choreography but notes an overexplained first act and lulls around the teenager's subplot. Accordingly the whole-runtime action is assessed as recurring rather than near-continuous, and the strong one-person-army combat appeal is offset by a conventional rescue premise and uneven pacing.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt19713090/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://cityonfire.com/the-killer-a-girl-who-deserves-to-die-2022-review-korean-john-wick-jang-hyuk-bruce-khan-choi-jae-hoon/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.markreviewsmovies.com/reviews/K/killer-2022.htm",
+          "purpose": "structure"
+        },
+        {
+          "url": "https://www.thewrap.com/the-killer-film-review-2022-korea-choi-jae-hoon/",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 6,
+        "action_intensity": 8,
+        "action_variety": 6,
+        "gunplay": 7,
+        "vehicle_action": 2,
+        "stunt_work": 8,
+        "chase_pursuit": 5,
+        "melee_combat": 9,
+        "destruction_spectacle": 4,
+        "mystery": 3,
+        "investigation": 3,
+        "conspiracy": 2,
+        "undercover_mole": 0,
+        "high_concept": 2,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 1,
+        "visual_spectacle": 5,
+        "pace_speed": 7,
+        "wtf_comedy": 2,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 3,
+        "setting_variety": 7,
+        "suspense": 6,
+        "action_repetition": 4,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 4
+      },
+      "dna_confidence": 0.69,
+      "dna_tags": [
+        "assassin",
+        "martial_arts",
+        "gun_fu"
+      ]
+    }
+  ],
+  "research_rejections": [
+    {
+      "title": "The Big 4",
+      "type": "movie",
+      "year": 2022,
+      "imdb_id": "tt15528292",
+      "reason": "Although the film has exuberant gunplay and comic violence, its 141-minute runtime and the prominent Rotten Tomatoes-cited RogerEbert.com criticism of an overlong, talky structure make sustained action density less convincing than the selected alternatives; https://www.rottentomatoes.com/m/the_big_4."
+    },
+    {
+      "title": "Revenger",
+      "type": "movie",
+      "year": 2018,
+      "imdb_id": "tt9426186",
+      "reason": "Its prison-island martial arts battles are striking, but AsianMovieWeb describes long gaps after the introduction, action picking up only around the 30-minute mark and extended pauses later; this conflicts with claims of virtually nonstop combat. Not prioritized without reliable whole-runtime density; https://www.asianmovieweb.com/de/reviews/revenger.htm."
+    }
+  ]
+}
