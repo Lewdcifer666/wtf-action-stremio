@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-11-a1",
+  "timestamp": "2026-10-11T15:58:28.737Z",
+  "items": [
+    {
+      "imdb_id": "tt19713090",
+      "type": "movie",
+      "title": "The Killer",
+      "year": 2022,
+      "reason": "The 95-minute South Korean retired-hitman rescue thriller builds a chain of fights and shootings in distinct locations. City on Fire describes a quick setup followed by action across much of the film; Mark Reviews Movies details repeated brawls and shootouts at a rink, hotel, port and estate. TheWrap praises inventive guns/axes/melee choreography but notes an overexplained first act and lulls around the teenager's subplot. Accordingly the whole-runtime action is assessed as recurring rather than near-continuous, and the strong one-person-army combat appeal is offset by a conventional rescue premise and uneven pacing.",
+      "dna": {
+        "action_density": 6,
+        "action_intensity": 8,
+        "action_variety": 6,
+        "gunplay": 7,
+        "vehicle_action": 2,
+        "stunt_work": 8,
+        "chase_pursuit": 5,
+        "melee_combat": 9,
+        "destruction_spectacle": 4,
+        "mystery": 3,
+        "investigation": 3,
+        "conspiracy": 2,
+        "undercover_mole": 0,
+        "high_concept": 2,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 1,
+        "visual_spectacle": 5,
+        "pace_speed": 7,
+        "wtf_comedy": 2,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 3,
+        "setting_variety": 7,
+        "suspense": 6,
+        "action_repetition": 4,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 4
+      },
+      "dna_confidence": 0.69,
+      "dna_tags": [
+        "assassin",
+        "martial_arts",
+        "gun_fu"
+      ],
+      "status": "watch",
+      "tags": [],
+      "match_score": 60,
+      "added_at": "2026-10-11T15:58:28.737Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-10-11-a1",
+      "source": "https://www.imdb.com/title/tt19713090/ ; https://cityonfire.com/the-killer-a-girl-who-deserves-to-die-2022-review-korean-john-wick-jang-hyuk-bruce-khan-choi-jae-hoon/ ; https://www.markreviewsmovies.com/reviews/K/killer-2022.htm ; https://www.thewrap.com/the-killer-film-review-2022-korea-choi-jae-hoon/"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-10-11-a1",
+  "timestamp": "2026-10-11T15:58:28.737Z",
+  "searched": 4,
+  "accepted": 1,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt19713090",
+      "type": "movie",
+      "title": "The Killer",
+      "match_score": 60
+    }
+  ],
+  "rejection_summary": [
+    {
+      "imdb_id": "tt9412268",
+      "type": "movie",
+      "title": "Furie",
+      "category": "rejected",
+      "reason": "below_publication_threshold"
+    },
+    {
+      "title": "The Big 4",
+      "type": "movie",
+      "year": 2022,
+      "imdb_id": "tt15528292",
+      "reason": "Although the film has exuberant gunplay and comic violence, its 141-minute runtime and the prominent Rotten Tomatoes-cited RogerEbert.com criticism of an overlong, talky structure make sustained action density less convincing than the selected alternatives; https://www.rottentomatoes.com/m/the_big_4.",
+      "category": "rejected"
+    },
+    {
+      "title": "Revenger",
+      "type": "movie",
+      "year": 2018,
+      "imdb_id": "tt9426186",
+      "reason": "Its prison-island martial arts battles are striking, but AsianMovieWeb describes long gaps after the introduction, action picking up only around the 30-minute mark and extended pauses later; this conflicts with claims of virtually nonstop combat. Not prioritized without reliable whole-runtime density; https://www.asianmovieweb.com/de/reviews/revenger.htm.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-11",
+    "packet_hash": "6f96ef937a6b1eb1c5bc4772be9cf4048811dd6576376966c8133d8b46d86705",
+    "research_commit": "236d818d717c03363149db677e82366123fe23d5",
+    "evaluated_base": "2a59d95325259d200c0917ea905fe839c04116f3",
+    "policy_fingerprint": "dde1930384af433bbe1fec18833ab01e7599d8e476e5c2e521dcbfe2bfed6a0f"
+  }
+}
