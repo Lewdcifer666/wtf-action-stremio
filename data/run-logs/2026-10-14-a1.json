@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-10-14-a1",
+  "timestamp": "2026-10-14T07:57:48.610Z",
+  "searched": 2,
+  "accepted": 1,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt7737528",
+      "type": "movie",
+      "title": "Kate",
+      "match_score": 72
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "The Princess",
+      "type": "movie",
+      "year": 2022,
+      "imdb_id": "tt13406136",
+      "reason": "Although the 94-minute castle escape contains repeated sword and hand-to-hand fights, RogerEbert.com's whole-film review reports flashback interruptions and a stop-start pattern, while other reviews criticize repeated encounters in a confined castle and weak presentation. Its action is not assumed to be absent, but sustained density and sufficient variation are less secure than for the shortlisted film; withheld from this research packet rather than inventing a strong fit.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-14",
+    "packet_hash": "b6922739acd8f658578e34f849f2d81e6cf2d6829c5d99775fbdcf6e3c7d1700",
+    "research_commit": "abb04b37d58b99c52a9daf702ff67a153cec2205",
+    "evaluated_base": "0981a4c2eb6c7c849f85621689e22d226e0e623c",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
