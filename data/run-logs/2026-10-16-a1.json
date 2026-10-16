@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-16-a1",
+  "timestamp": "2026-10-16T08:04:01.940Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt6146586",
+      "type": "movie",
+      "title": "John Wick: Chapter 3 - Parabellum",
+      "match_score": 80
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-16",
+    "packet_hash": "43ad32c669cb87e80ca69704f129f988f3cbcb7e52723fbf52be7bdd6bbb5e68",
+    "research_commit": "0e828ad6b8f845dd2545f18f193b7277d7194f86",
+    "evaluated_base": "761fb05c43150c7883c7012b59f1c691fcc8e3af",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
