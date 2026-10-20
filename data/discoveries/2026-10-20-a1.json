@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-20-a1",
+  "timestamp": "2026-10-20T08:29:15.803Z",
+  "items": [
+    {
+      "imdb_id": "tt27811040",
+      "type": "movie",
+      "title": "The Roundup: Punishment",
+      "year": 2024,
+      "reason": "A 109-minute South Korean police action-comedy about an illegal online gambling syndicate, with an investigation spanning Seoul and the Philippines. Screen Daily describes a brisk but formulaic mixture of police procedure, humor and fights, while RogerEbert.com details a pursuit and the final confrontation and criticizes underpowered action and generic characterization. AsianMovieWeb describes a notable knife fight involving the villain and recurring heavy-handed boxing-style clashes, but also investigative and comic passages. Consequently the whole-film action density is moderate-to-high rather than continuous; intense individual melee scenes do not substitute for density. The cybercrime investigation and international locations add some variety, while repetition of the series formula, thin supporting roles and a less distinctive finale are limitations. The villain's former military background does not make this a military-operation film, and unsanctioned boxing-style punches are not sports fighting. Descriptive DNA only; no final eligibility or score is inferred.",
+      "dna": {
+        "action_density": 6,
+        "action_intensity": 8,
+        "action_variety": 6,
+        "gunplay": 2,
+        "vehicle_action": 3,
+        "stunt_work": 7,
+        "chase_pursuit": 6,
+        "melee_combat": 9,
+        "destruction_spectacle": 2,
+        "mystery": 3,
+        "investigation": 6,
+        "conspiracy": 5,
+        "undercover_mole": 3,
+        "high_concept": 4,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 8,
+        "retro_visual_style": 3,
+        "visual_spectacle": 5,
+        "pace_speed": 7,
+        "wtf_comedy": 3,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 6,
+        "setting_variety": 6,
+        "suspense": 6,
+        "action_repetition": 5,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 0,
+        "drama_focus": 3
+      },
+      "dna_confidence": 0.76,
+      "dna_tags": [
+        "martial_arts"
+      ],
+      "status": "watch",
+      "tags": [],
+      "match_score": 61,
+      "added_at": "2026-10-20T08:29:15.803Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-10-20-a1",
+      "source": "https://www.imdb.com/title/tt27811040/ ; https://www.screendaily.com/reviews/the-roundup-punishment-berlin-review/5190512.article ; https://www.rogerebert.com/reviews/the-roundup-punishment-2024 ; https://www.asianmovieweb.com/de/reviews/the_roundup_punishment.htm ; https://www.rottentomatoes.com/m/the_roundup_punishment"
+    }
+  ]
+}
