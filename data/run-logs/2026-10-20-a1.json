@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-10-20-a1",
+  "timestamp": "2026-10-20T08:29:15.803Z",
+  "searched": 4,
+  "accepted": 1,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt27811040",
+      "type": "movie",
+      "title": "The Roundup: Punishment",
+      "match_score": 61
+    }
+  ],
+  "rejection_summary": [
+    {
+      "imdb_id": "tt5741304",
+      "type": "movie",
+      "title": "Jailbreak",
+      "category": "rejected",
+      "reason": "below_min_score"
+    },
+    {
+      "title": "Revenger",
+      "type": "movie",
+      "year": 2018,
+      "imdb_id": "tt9426186",
+      "reason": "A whole-film AsianMovieWeb review reports a prolonged action-light opening, with fighting only accelerating around the 30-minute mark and further lengthy pauses. Its attractive choreography alone is insufficient evidence of sustained action density, so it is not advanced as a candidate.",
+      "category": "rejected"
+    },
+    {
+      "title": "One Percenter",
+      "type": "movie",
+      "year": 2023,
+      "imdb_id": "tt15714400",
+      "reason": "Rotten Tomatoes review excerpts describe an extended setup that takes too long to begin and repetitive action beats. Whole-runtime density remains insufficiently established for a confident candidate despite the action-star-versus-yakuza premise.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-20",
+    "packet_hash": "9aaed59bc1b9bd27007e0e129f59b9753916de6cef2db565903deab7308b621f",
+    "research_commit": "2c504859747a4ffc4c41a863809efe9808b75823",
+    "evaluated_base": "a5f8424a6f26676915257b45753c221317f9729a",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
