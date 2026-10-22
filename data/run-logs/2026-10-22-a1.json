@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-10-22-a1",
+  "timestamp": "2026-10-22T08:02:13.564Z",
+  "searched": 3,
+  "accepted": 2,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt14465706",
+      "type": "movie",
+      "title": "Lost Bullet 2: Back for More",
+      "match_score": 69
+    },
+    {
+      "imdb_id": "tt0293662",
+      "type": "movie",
+      "title": "The Transporter",
+      "match_score": 61
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "Furie",
+      "type": "movie",
+      "year": 2019,
+      "imdb_id": "tt9412268",
+      "reason": "Whole-film evidence conflicts about sustained density. A Screen Anarchy review reports only a handful of unevenly spaced action scenes and a strong late train finale after extensive mother-daughter setup; other reviewers praise the fighting and momentum. Without sufficiently consistent evidence that action occupies most of the 98-minute runtime, do not promote this film today on the strength of its climactic choreography alone.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-22",
+    "packet_hash": "dc655019168c767825424f4a52f43db1f8809351ecaf9327f9418dee4f38b041",
+    "research_commit": "3d5213dc7284ed9f5b1c46bc40ad10b90a473754",
+    "evaluated_base": "be2c7d39d2b497a984fc7318be8de7f02f15f41c",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
