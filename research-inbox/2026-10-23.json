@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-10-23",
+  "candidates": [
+    {
+      "imdb_id": "tt0471041",
+      "type": "movie",
+      "title": "The Tournament",
+      "year": 2009,
+      "reason": "A 95-minute British assassin-survival thriller in which competing killers are tracked through an English town under a 24-hour elimination rule. Whole-film reviews from Kung-fu Kingdom and Flickfeast describe gunfights and hand-to-hand encounters spaced across the runtime, with an early church fight, parkour-based pursuits, a convenience-store confrontation and a late bus chase. This supports high action density independently of the violence's peak intensity, although the film pauses for tournament exposition, the priest's plight and revenge/redemption beats. The lethal game and tracking-chip mechanics are a genuine organizing high concept; a military-trained entrant does not make this a battlefield film, and the tournament is not sanctioned sports fighting. Strengths are multiple action modes, pursuit urgency and a physically capable assassin lead. Weaknesses include predictable twists, thin characters, uneven acting, implausible marksmanship, low-budget visual inconsistency and an action-heavy but less inventive closing stretch. Visual presentation and retro styling are assessed from the film's described craft, not its release year. These DNA measurements are descriptive estimates, not final eligibility or ranking decisions.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt0471041/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://kungfukingdom.com/the-tournament-movie-review/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.flickfeast.co.uk/reviews/film-reviews/tournament-2009/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.rottentomatoes.com/m/1218133-tournament",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 8,
+        "action_variety": 7,
+        "gunplay": 8,
+        "vehicle_action": 5,
+        "stunt_work": 7,
+        "chase_pursuit": 8,
+        "melee_combat": 7,
+        "destruction_spectacle": 5,
+        "mystery": 3,
+        "investigation": 1,
+        "conspiracy": 5,
+        "undercover_mole": 0,
+        "high_concept": 8,
+        "sci_fi_elements": 1,
+        "fantasy_elements": 0,
+        "deadly_game": 10,
+        "rule_discovery": 5,
+        "visual_quality": 5,
+        "retro_visual_style": 4,
+        "visual_spectacle": 5,
+        "pace_speed": 8,
+        "wtf_comedy": 3,
+        "badass_protagonist": 8,
+        "ensemble_charisma": 4,
+        "setting_variety": 6,
+        "suspense": 8,
+        "action_repetition": 5,
+        "military_focus": 1,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 3
+      },
+      "dna_confidence": 0.76,
+      "dna_tags": [
+        "assassin",
+        "survival_run",
+        "martial_arts",
+        "car_chase"
+      ]
+    }
+  ],
+  "research_rejections": [
+    {
+      "title": "The Big 4",
+      "type": "movie",
+      "year": 2022,
+      "imdb_id": "tt15528292",
+      "reason": "The 141-minute Indonesian action-comedy has inventive and violent action sequences, but RogerEbert.com's whole-film review describes an extended, talk-heavy middle and highlights the prologue and final half-hour as major action peaks. The long dialogue and setup stretches make sustained action density too uncertain for today's high-density shortlist; do not infer density from the striking set pieces or genre marketing."
+    }
+  ]
+}
