@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-10-23-a1",
+  "timestamp": "2026-10-23T08:01:51.606Z",
+  "searched": 2,
+  "accepted": 1,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt0471041",
+      "type": "movie",
+      "title": "The Tournament",
+      "match_score": 72
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "The Big 4",
+      "type": "movie",
+      "year": 2022,
+      "imdb_id": "tt15528292",
+      "reason": "The 141-minute Indonesian action-comedy has inventive and violent action sequences, but RogerEbert.com's whole-film review describes an extended, talk-heavy middle and highlights the prologue and final half-hour as major action peaks. The long dialogue and setup stretches make sustained action density too uncertain for today's high-density shortlist; do not infer density from the striking set pieces or genre marketing.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-23",
+    "packet_hash": "ac8e9aa25c2dd92d0eac80a932d97dd77fff34a3949e10f36e722bcad5f17528",
+    "research_commit": "c0c4cc920cc0632c63dea52e25a9cd1557c3bfe4",
+    "evaluated_base": "b1966d1feeda1fa89463598f4ff7e26ca7e204b5",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
