@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-10-24",
+  "candidates": [
+    {
+      "imdb_id": "tt1649418",
+      "type": "movie",
+      "title": "The Gray Man",
+      "year": 2022,
+      "reason": "A 122-minute international CIA-fugitive thriller with a brief recruitment and Bangkok-mission setup followed by repeated attempts to capture or kill Sierra Six across multiple countries. Whole-film reviews from The Prague Reporter, BFI Sight and Sound and TechRadar describe recurring action through the middle and climax: a cargo-plane fight and escape, hand-to-hand clashes, a destructive Prague square shootout and tram pursuit, and a late Croatia castle assault. This supports high action density, but the film also pauses for agency intrigue, flashbacks and a hostage subplot, so density is not conflated with its very high peak intensity or frenetic editing. Gunplay, vehicle pursuits, close combat and explosions give real action variety; many locations broaden the settings. The CIA cover-up and bounty-driven hunt create conspiracy and pursuit threads without a novel rule-bound high concept. Limitations documented by critics include an underwritten hero and supporting cast, formulaic plot, visually muddy scenes, occasionally poor CGI and repeated waves of mercenaries. The lead is a covert operative rather than a superhero, and the aircraft set piece does not make the story a battlefield film. DNA values are descriptive research estimates, not final eligibility, ranking or publication scores.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt1649418/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.praguereporter.com/home/2022/7/22/the-gray-man-movie-review-prague-is-spectacular-in-netflix-blockbuster/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.bfi.org.uk/sight-and-sound/reviews/gray-man-short-grey-matter",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.techradar.com/reviews/the-gray-man",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 7,
+        "action_intensity": 9,
+        "action_variety": 8,
+        "gunplay": 9,
+        "vehicle_action": 7,
+        "stunt_work": 7,
+        "chase_pursuit": 9,
+        "melee_combat": 7,
+        "destruction_spectacle": 8,
+        "mystery": 3,
+        "investigation": 2,
+        "conspiracy": 7,
+        "undercover_mole": 3,
+        "high_concept": 5,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 1,
+        "visual_spectacle": 9,
+        "pace_speed": 8,
+        "wtf_comedy": 3,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 5,
+        "setting_variety": 9,
+        "suspense": 7,
+        "action_repetition": 5,
+        "military_focus": 2,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 0,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.81,
+      "dna_tags": [
+        "assassin",
+        "espionage",
+        "car_chase",
+        "survival_run"
+      ]
+    },
+    {
+      "imdb_id": "tt0429493",
+      "type": "movie",
+      "title": "The A-Team",
+      "year": 2010,
+      "reason": "A 118-minute action-comedy about four soldiers framed for a crime who escape custody and pursue a CIA-linked double-cross. Whole-film coverage from High-Def Digest and kino.de describes action from the Mexican opening through jailbreaks, airborne chases, a falling-tank stunt and a shipping-container finale, with few sustained quiet intervals; Screen Daily and GamesRadar separately identify escalating spectacle and a crowded second half. Action density is assessed as high but conservatively below near-continuous because planning dialogue, framing exposition and romantic detours interrupt the set pieces, and fast editing is not itself action. The film varies gunfights, helicopter and aircraft action, vehicle chases, elaborate heist-like plans and large explosions, with a lively four-person ensemble and absurd comedy. The military identities and early Iraq mission are substantial, but the main structure is a fugitive conspiracy and improvised caper rather than continuous battlefield operations. Weaknesses include confusing rapid-cut action geography, conspicuous CGI, repetitive late explosions, thin characters and an overcomplicated plot. Its television-series homage adds some retro styling, assessed from presentation rather than its 2010 release year. DNA values are descriptive evidence estimates, not computed match scores or publication conclusions.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt0429493/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.highdefdigest.com/blog/ateam-2010-review/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.kino.de/film/das-a-team-der-film-2010/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.gamesradar.com/the-a-team-review/",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.screendaily.com/the-a-team/5014753.article",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 7,
+        "action_intensity": 8,
+        "action_variety": 8,
+        "gunplay": 7,
+        "vehicle_action": 8,
+        "stunt_work": 6,
+        "chase_pursuit": 7,
+        "melee_combat": 4,
+        "destruction_spectacle": 9,
+        "mystery": 3,
+        "investigation": 4,
+        "conspiracy": 7,
+        "undercover_mole": 4,
+        "high_concept": 6,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 1,
+        "visual_quality": 5,
+        "retro_visual_style": 3,
+        "visual_spectacle": 8,
+        "pace_speed": 9,
+        "wtf_comedy": 6,
+        "badass_protagonist": 8,
+        "ensemble_charisma": 8,
+        "setting_variety": 8,
+        "suspense": 5,
+        "action_repetition": 6,
+        "military_focus": 6,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 2,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.76,
+      "dna_tags": [
+        "heist",
+        "car_chase",
+        "siege"
+      ]
+    }
+  ],
+  "research_rejections": [
+    {
+      "title": "The Hitman's Bodyguard",
+      "type": "movie",
+      "year": 2017,
+      "imdb_id": "tt1959563",
+      "reason": "The 118-minute buddy action-comedy has frequent attacks and a major Amsterdam boat-and-road chase, but whole-film assessments diverge sharply: RogerEbert.com describes extensive vehicle mayhem while The Guardian and The Prague Reporter emphasize detours, uneven pacing and the strongest action arriving around the 90–100-minute climax. The conflicting evidence does not establish sufficiently sustained action density across the entire runtime to advance confidently today; avoid equating the impressive final chase with the whole film."
+    }
+  ]
+}
