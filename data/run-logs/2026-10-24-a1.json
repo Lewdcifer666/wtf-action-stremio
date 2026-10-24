@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-10-24-a1",
+  "timestamp": "2026-10-24T08:01:21.466Z",
+  "searched": 3,
+  "accepted": 2,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt1649418",
+      "type": "movie",
+      "title": "The Gray Man",
+      "match_score": 75
+    },
+    {
+      "imdb_id": "tt0429493",
+      "type": "movie",
+      "title": "The A-Team",
+      "match_score": 68
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "The Hitman's Bodyguard",
+      "type": "movie",
+      "year": 2017,
+      "imdb_id": "tt1959563",
+      "reason": "The 118-minute buddy action-comedy has frequent attacks and a major Amsterdam boat-and-road chase, but whole-film assessments diverge sharply: RogerEbert.com describes extensive vehicle mayhem while The Guardian and The Prague Reporter emphasize detours, uneven pacing and the strongest action arriving around the 90–100-minute climax. The conflicting evidence does not establish sufficiently sustained action density across the entire runtime to advance confidently today; avoid equating the impressive final chase with the whole film.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-24",
+    "packet_hash": "295e13f5aa7ac6622d83e020ee55b2df121103333c8aa2a8d5c773e6bf698c4b",
+    "research_commit": "a1cd0ccdedbc062d5c97f8e771cafabfc02990b3",
+    "evaluated_base": "5014f7dd9c74fd11b4c7a23cd9a6bdf883132712",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
