@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-10-25-a1",
+  "timestamp": "2026-10-25T09:06:35.779Z",
+  "searched": 3,
+  "accepted": 2,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt10456740",
+      "type": "movie",
+      "title": "Lost Bullet",
+      "match_score": 63
+    },
+    {
+      "imdb_id": "tt15838850",
+      "type": "movie",
+      "title": "The Roundup",
+      "match_score": 60
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "The Roundup: No Way Out",
+      "type": "movie",
+      "year": 2023,
+      "imdb_id": "tt21364552",
+      "reason": "Although the sequel has well-choreographed melee fights, RogerEbert.com describes episodic thrills and a substantial procedural component; Nerdly explicitly reports fewer action set pieces than in the earlier films and more time devoted to police procedure. This disagreement with more enthusiastic descriptions makes whole-runtime action density too uncertain for a high-density shortlist. The film is not rejected for its year, cast or title alone.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-25",
+    "packet_hash": "79ae347b5067693ffb60c252174d71fa7b46cc4a10fee04a9855986ded6a6b51",
+    "research_commit": "78f77f8cf55e38e2bebf8181370be894add768c8",
+    "evaluated_base": "3f19e81f45d0fa7dd636e804fc2ba9fe4b28ff15",
+    "policy_fingerprint": "8418c9b79509df2d78cc52c2712ed34a62733752988308219a6f1015bf54c13a"
+  }
+}
