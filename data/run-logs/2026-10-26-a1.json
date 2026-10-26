@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-26-a1",
+  "timestamp": "2026-10-26T09:16:03.473Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt1899353",
+      "type": "movie",
+      "title": "The Raid: Redemption",
+      "match_score": 68
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-26",
+    "packet_hash": "76daaad4ffdb5555c778d9a5853e4efebafbbece53032c26e89596fcd6df5f03",
+    "research_commit": "02e3d0720bf97b56923c37ac17d0b58880825ffd",
+    "evaluated_base": "cc479afa979c6d4fca04b754d36a3a60a9b8068c",
+    "policy_fingerprint": "c50b67924661bdb2de13807b8785f52e000e3e502a563c41d495d1d286423311"
+  }
+}
