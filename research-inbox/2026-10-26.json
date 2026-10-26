@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-10-26",
+  "candidates": [
+    {
+      "imdb_id": "tt1899353",
+      "type": "movie",
+      "title": "The Raid: Redemption",
+      "year": 2011,
+      "reason": "A 101-minute Indonesian high-rise survival action film: after a short police-raid setup, an ambush traps a SWAT unit inside a gangster-controlled apartment building. A 3 Brothers Film whole-film review estimates action at about 85 percent of the runtime; Sounds of Cinema describes fights recurring every five to ten minutes with brief tense pauses, and KPBS notes rapid fights alternating with quieter suspense. This supports very high action density separately from the punishing intensity of the fights. Gunfire, machete attacks, silat hand-to-hand combat and improvised weapons supply several action modes, but melee dominates and the single building limits setting variety. Spatially legible choreography, physically demanding stunt work and a highly capable lead are strengths. Limitations include a minimal plot, thin characterization, extreme violence and possible fatigue from repeated waves of combat. A police tactical mission is not a military battlefield film; the limited betrayal thread is not a central investigative mystery. These DNA estimates are descriptive only, not final ranking, eligibility or publication scores.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt1899353/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://3brothersfilm.com/blog/2012/04/the-raid-redemption-2012",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://soundsofcinema.com/review-archive/review-the-raid-redemption-2012/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.kpbs.org/news/arts-culture/2012/03/30/review-raid-redemption",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.newstribune.com/news/2012/mar/23/movie-review-relentless-pummeling-paces-raid/",
+          "purpose": "structure"
+        }
+      ],
+      "dna": {
+        "action_density": 9,
+        "action_intensity": 9,
+        "action_variety": 6,
+        "gunplay": 6,
+        "vehicle_action": 0,
+        "stunt_work": 9,
+        "chase_pursuit": 6,
+        "melee_combat": 10,
+        "destruction_spectacle": 4,
+        "mystery": 2,
+        "investigation": 1,
+        "conspiracy": 3,
+        "undercover_mole": 1,
+        "high_concept": 6,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 1,
+        "visual_quality": 8,
+        "retro_visual_style": 2,
+        "visual_spectacle": 6,
+        "pace_speed": 9,
+        "wtf_comedy": 0,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 4,
+        "setting_variety": 2,
+        "suspense": 9,
+        "action_repetition": 6,
+        "military_focus": 2,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 0,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.85,
+      "dna_tags": [
+        "siege",
+        "survival_run",
+        "martial_arts",
+        "one_location"
+      ]
+    }
+  ],
+  "research_rejections": []
+}
