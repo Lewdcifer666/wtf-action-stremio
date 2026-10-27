@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-10-27-a1",
+  "timestamp": "2026-10-27T09:02:25.317Z",
+  "searched": 3,
+  "accepted": 1,
+  "rejected": 2,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt0388482",
+      "type": "movie",
+      "title": "Transporter 2",
+      "match_score": 68
+    }
+  ],
+  "rejection_summary": [
+    {
+      "imdb_id": "tt0368909",
+      "type": "movie",
+      "title": "Ong-Bak: The Thai Warrior",
+      "category": "rejected",
+      "reason": "below_publication_threshold"
+    },
+    {
+      "title": "The Protector",
+      "type": "movie",
+      "year": 2005,
+      "imdb_id": "tt0427954",
+      "reason": "The Tony Jaa film exists in substantially different 83-minute international/US and roughly 110-minute original versions. Heroic Cinema and other whole-film coverage document significant story subplots and slower passages in the longer cut, while action-heavy reviews often discuss the shortened cut. The version-dependent runtime makes a single confident whole-film action-density assessment unsuitable today; the impressive restaurant long take and finale alone are not enough.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-10-27",
+    "packet_hash": "79c41d6c0aef11f81d3581cef9e87c7dc1af3c545096eae45ddabbab48e1bf0c",
+    "research_commit": "f443e4077245d882957b2c771c58335dc8407869",
+    "evaluated_base": "52b629bbfa0c7e62f2fb26b9a85d141bbf5e5bac",
+    "policy_fingerprint": "c50b67924661bdb2de13807b8785f52e000e3e502a563c41d495d1d286423311"
+  }
+}

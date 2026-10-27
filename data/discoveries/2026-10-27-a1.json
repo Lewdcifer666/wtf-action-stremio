@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-27-a1",
+  "timestamp": "2026-10-27T09:02:25.317Z",
+  "items": [
+    {
+      "imdb_id": "tt0388482",
+      "type": "movie",
+      "title": "Transporter 2",
+      "year": 2005,
+      "reason": "An 87-minute Miami-set action sequel with a short chauffeur-and-child introduction before a kidnapping and virus plot drives frequent confrontations. Slant's whole-film review specifically describes the kinetic mayhem barely stopping for conversation; The Washington Post identifies large amounts of driving, fighting and shooting, while also noting that scenes without Frank stall. Car and jet-ski pursuits, a car-bomb removal stunt, repeated martial-arts clashes, gunfire and a late aircraft confrontation provide action across the film rather than only in a trailer or finale. Action density is therefore high, separately from the implausible intensity of individual stunts. The charismatic and exceptionally capable lead, diverse vehicle and melee sequences and concise runtime are strengths. Weaknesses include a flimsy virus-kidnapping conspiracy, conspicuous CGI and wire-assisted impossibilities, cartoonish physics, shallow characters and limited dramatic stakes. The Miami setting offers several sites but not broad geographic variety. The lead's former special-forces career is background, not a battlefield narrative; the movie is not about sanctioned sports fighting. Descriptive DNA estimates only, without final ranking or eligibility claims.",
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 8,
+        "action_variety": 7,
+        "gunplay": 6,
+        "vehicle_action": 8,
+        "stunt_work": 7,
+        "chase_pursuit": 8,
+        "melee_combat": 8,
+        "destruction_spectacle": 5,
+        "mystery": 2,
+        "investigation": 3,
+        "conspiracy": 4,
+        "undercover_mole": 1,
+        "high_concept": 5,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 4,
+        "visual_spectacle": 7,
+        "pace_speed": 9,
+        "wtf_comedy": 4,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 4,
+        "setting_variety": 5,
+        "suspense": 6,
+        "action_repetition": 5,
+        "military_focus": 1,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.79,
+      "dna_tags": [
+        "car_chase",
+        "martial_arts",
+        "cartel"
+      ],
+      "status": "watch",
+      "tags": [],
+      "match_score": 68,
+      "added_at": "2026-10-27T09:02:25.317Z",
+      "added_by": "daily-automation",
+      "discovery_run_id": "2026-10-27-a1",
+      "source": "https://www.imdb.com/title/tt0388482/ ; https://www.slantmagazine.com/film/transporter-2/ ; https://www.washingtonpost.com/archive/lifestyle/2005/09/02/transporter-2-jason-stathams-going-places/b71a5b79-6e11-4edf-831e-41521e5c3b51/ ; https://www.rottentomatoes.com/m/transporter_2 ; https://www.rogerebert.com/reviews/transporter-2-2005"
+    }
+  ]
+}
