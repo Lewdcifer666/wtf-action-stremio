@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-10-27",
+  "candidates": [
+    {
+      "imdb_id": "tt0388482",
+      "type": "movie",
+      "title": "Transporter 2",
+      "year": 2005,
+      "reason": "An 87-minute Miami-set action sequel with a short chauffeur-and-child introduction before a kidnapping and virus plot drives frequent confrontations. Slant's whole-film review specifically describes the kinetic mayhem barely stopping for conversation; The Washington Post identifies large amounts of driving, fighting and shooting, while also noting that scenes without Frank stall. Car and jet-ski pursuits, a car-bomb removal stunt, repeated martial-arts clashes, gunfire and a late aircraft confrontation provide action across the film rather than only in a trailer or finale. Action density is therefore high, separately from the implausible intensity of individual stunts. The charismatic and exceptionally capable lead, diverse vehicle and melee sequences and concise runtime are strengths. Weaknesses include a flimsy virus-kidnapping conspiracy, conspicuous CGI and wire-assisted impossibilities, cartoonish physics, shallow characters and limited dramatic stakes. The Miami setting offers several sites but not broad geographic variety. The lead's former special-forces career is background, not a battlefield narrative; the movie is not about sanctioned sports fighting. Descriptive DNA estimates only, without final ranking or eligibility claims.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt0388482/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.slantmagazine.com/film/transporter-2/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.washingtonpost.com/archive/lifestyle/2005/09/02/transporter-2-jason-stathams-going-places/b71a5b79-6e11-4edf-831e-41521e5c3b51/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.rottentomatoes.com/m/transporter_2",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.rogerebert.com/reviews/transporter-2-2005",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 8,
+        "action_intensity": 8,
+        "action_variety": 7,
+        "gunplay": 6,
+        "vehicle_action": 8,
+        "stunt_work": 7,
+        "chase_pursuit": 8,
+        "melee_combat": 8,
+        "destruction_spectacle": 5,
+        "mystery": 2,
+        "investigation": 3,
+        "conspiracy": 4,
+        "undercover_mole": 1,
+        "high_concept": 5,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 4,
+        "visual_spectacle": 7,
+        "pace_speed": 9,
+        "wtf_comedy": 4,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 4,
+        "setting_variety": 5,
+        "suspense": 6,
+        "action_repetition": 5,
+        "military_focus": 1,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 1,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.79,
+      "dna_tags": [
+        "car_chase",
+        "martial_arts",
+        "cartel"
+      ]
+    },
+    {
+      "imdb_id": "tt0368909",
+      "type": "movie",
+      "title": "Ong-Bak: The Thai Warrior",
+      "year": 2003,
+      "reason": "A Thai martial-arts film about a villager retrieving a stolen sacred statue. Whole-film analysis from Opus identifies at least six substantial action sequences spread from the Bangkok street chase and illegal fighting matches to a late criminal-lair battle; Deseret News and OFDb describe a second vehicle pursuit, acrobatic escapes and repeated Muay Thai confrontations. The village setup, comic sidekick schemes and crime-story connective passages prevent treating it as nonstop fighting. Density is assessed as moderate-to-high independently of the very intense and athletic set pieces. Practical stunt choreography, foot pursuit, three-wheeled vehicle chase, varied opponents and a physically exceptional protagonist are strengths. Weaknesses include predictable plotting, weak dialogue and characterization, repeated stunt replays and some lulls between the major fights. Although there are illegal fighting matches, the film is a relic-recovery crime action story, not a sports-career drama. The original 2003 production year does not determine its visual or retro scores; its action is assessed from reviews of the film, not trailers. DNA values are descriptive estimates, not final ranking or publication decisions.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt0368909/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://opus.ing/reviews/ong-bak-prachya-pinkaew",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.deseret.com/2005/3/10/20090775/film-review-ong-bak-the-thai-warrior/",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.ofdb.de/film/36058%2C209087%2COng-Bak-Die-Geburt-eines-Helden/review/",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.rottentomatoes.com/m/ongbak",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "action_density": 6,
+        "action_intensity": 8,
+        "action_variety": 6,
+        "gunplay": 1,
+        "vehicle_action": 5,
+        "stunt_work": 9,
+        "chase_pursuit": 8,
+        "melee_combat": 10,
+        "destruction_spectacle": 2,
+        "mystery": 2,
+        "investigation": 2,
+        "conspiracy": 2,
+        "undercover_mole": 0,
+        "high_concept": 3,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 7,
+        "retro_visual_style": 4,
+        "visual_spectacle": 6,
+        "pace_speed": 7,
+        "wtf_comedy": 3,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 5,
+        "setting_variety": 6,
+        "suspense": 6,
+        "action_repetition": 5,
+        "military_focus": 0,
+        "superhero": 0,
+        "sports_fighting": 3,
+        "romance_focus": 1,
+        "drama_focus": 2
+      },
+      "dna_confidence": 0.78,
+      "dna_tags": [
+        "martial_arts",
+        "survival_run"
+      ]
+    }
+  ],
+  "research_rejections": [
+    {
+      "title": "The Protector",
+      "type": "movie",
+      "year": 2005,
+      "imdb_id": "tt0427954",
+      "reason": "The Tony Jaa film exists in substantially different 83-minute international/US and roughly 110-minute original versions. Heroic Cinema and other whole-film coverage document significant story subplots and slower passages in the longer cut, while action-heavy reviews often discuss the shortened cut. The version-dependent runtime makes a single confident whole-film action-density assessment unsuitable today; the impressive restaurant long take and finale alone are not enough."
+    }
+  ]
+}
