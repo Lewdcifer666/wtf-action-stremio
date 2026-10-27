@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
-  "state_token": "91e47bafcb14296f9330eaeba8a7ee0b80f9ca10bc744188b2675e7cc8ad0cda",
+  "state_token": "ad71e1cbb1e00551010fc8410597a91f23fdc183bd003e335d54410958688772",
   "minimum_match_score": 60,
   "best_match_score": 70,
   "personalization_enabled": false,
   "personalization_status": "absent",
   "personalization_applied_items": 0,
-  "discovery_file_count": 33,
+  "discovery_file_count": 34,
   "public_identities": [
     "movie:tt0258463",
     "movie:tt0293662",
+    "movie:tt0388482",
     "movie:tt0429493",
     "movie:tt0440963",
     "movie:tt0465602",
