@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-11-08-a1",
+  "timestamp": "2026-11-08T09:14:29.253Z",
+  "searched": 3,
+  "accepted": 0,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "The Gorge",
+      "type": "movie",
+      "year": 2025,
+      "reason": "Public reviews describe an extended initial watchtower courtship and character setup before the monster-combat and escape sequences. The action is concentrated later in the 127-minute runtime, so sustained whole-film action density cannot be established.",
+      "category": "rejected"
+    },
+    {
+      "title": "CHiPs",
+      "type": "movie",
+      "year": 2017,
+      "imdb_id": "tt0493405",
+      "reason": "Motorcycle chases occur, but reviews emphasize recurring crude buddy comedy and character banter; the evidence does not substantiate sufficiently high action density throughout its 101-minute runtime.",
+      "category": "rejected"
+    },
+    {
+      "title": "Paycheck",
+      "type": "movie",
+      "year": 2003,
+      "imdb_id": "tt0338337",
+      "reason": "The sci-fi puzzle and chase premise is promising, but reviews identify uneven urgency and isolated motorcycle chase, combat and explosions. Insufficient whole-runtime corroboration for the profile's dominant action-density requirement.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-11-08",
+    "packet_hash": "593dd3662f7f9422f5f4aaacc3a0551e1a00afb219480236db0bf4fd3bbf4b17",
+    "research_commit": "2f413a0b29e65e8f381cbef9432ca7201f585a5f",
+    "evaluated_base": "6c2a6c77eb654357a2e4e2aace51864d196b2e96",
+    "policy_fingerprint": "4507a0a974e2cd96c7d1ce3b55cfa822ac67577da80b2b610d43440cd3d3e826"
+  }
+}
