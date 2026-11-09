@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-11-09-a1",
+  "timestamp": "2026-11-09T09:21:27.122Z",
+  "searched": 3,
+  "accepted": 0,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "The Foreigner",
+      "type": "movie",
+      "year": 2017,
+      "reason": "Independent whole-film reviews describe extensive political plotting and long stretches with little Jackie Chan screen time; its intermittent combat cannot establish the required sustained action density.",
+      "category": "rejected"
+    },
+    {
+      "title": "The Ministry of Ungentlemanly Warfare",
+      "type": "movie",
+      "year": 2024,
+      "reason": "Review evidence identifies a substantial middle act of setup and underwhelming, repetitive action payoff; sustained action density and variety are not established.",
+      "category": "rejected"
+    },
+    {
+      "title": "The Fugitive",
+      "type": "movie",
+      "year": 1993,
+      "reason": "A strongly reviewed pursuit thriller, but its continuous suspense and narrative momentum cannot substitute for evidence of frequent physical action across the full runtime.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-11-09",
+    "packet_hash": "57bfb180c5ee2c0f016d59cc3d4276b406d174389ce78d18bbd8f237f3cbbd9c",
+    "research_commit": "df49cc73815c9d23de5350bc090ce46c76189ffb",
+    "evaluated_base": "ea41247c5d3496b1f24001028556cdc9843a3cc2",
+    "policy_fingerprint": "4507a0a974e2cd96c7d1ce3b55cfa822ac67577da80b2b610d43440cd3d3e826"
+  }
+}
