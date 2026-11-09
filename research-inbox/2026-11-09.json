@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-09",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "The Foreigner",
+      "type": "movie",
+      "year": 2017,
+      "reason": "Independent whole-film reviews describe extensive political plotting and long stretches with little Jackie Chan screen time; its intermittent combat cannot establish the required sustained action density."
+    },
+    {
+      "title": "The Ministry of Ungentlemanly Warfare",
+      "type": "movie",
+      "year": 2024,
+      "reason": "Review evidence identifies a substantial middle act of setup and underwhelming, repetitive action payoff; sustained action density and variety are not established."
+    },
+    {
+      "title": "The Fugitive",
+      "type": "movie",
+      "year": 1993,
+      "reason": "A strongly reviewed pursuit thriller, but its continuous suspense and narrative momentum cannot substitute for evidence of frequent physical action across the full runtime."
+    }
+  ]
+}
