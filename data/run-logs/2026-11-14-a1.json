@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-11-14-a1",
+  "timestamp": "2026-11-14T09:14:38.393Z",
+  "searched": 3,
+  "accepted": 0,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "The Siege of Jadotville",
+      "type": "movie",
+      "year": 2016,
+      "imdb_id": "tt3922798",
+      "reason": "Combat scenes are prominent, but the story is a military siege with substantial command and political scenes; independent whole-film criticism does not establish the required sustained action density and the profile penalizes military focus. Sources consulted: https://www.rottentomatoes.com/m/the_siege_of_jadotville ; https://en.wikipedia.org/wiki/The_Siege_of_Jadotville_%28film%29 ; https://www.imdb.com/title/tt3922798/technical/.",
+      "category": "rejected"
+    },
+    {
+      "title": "Blown Away",
+      "type": "movie",
+      "year": 1994,
+      "reason": "Bomb-defusal suspense and intermittent explosions are well supported, but reviews and the two-hour plot structure do not establish high physical-action density across the runtime. Sources consulted: https://www.rogerebert.com/reviews/blown-away-1994 ; https://www.timeout.com/movies/blown-away ; https://www.rottentomatoes.com/m/1052838-blown_away.",
+      "category": "rejected"
+    },
+    {
+      "title": "Predator",
+      "type": "movie",
+      "year": 1987,
+      "reason": "High-energy jungle action and science-fiction pursuit are documented, but available review evidence does not securely establish the profile's precise whole-runtime action-density and complete DNA dimensions; defer rather than invent missing measurements. Source consulted: https://www.rogerebert.com/reviews/predator-1987.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-11-14",
+    "packet_hash": "6f8a810613094e925b6038bd798285795f270ae7aa803a6ea042f81033621597",
+    "research_commit": "e2e4fc6206c77cba5ed0b01a3cbba1c57e8596a8",
+    "evaluated_base": "5a4b53b29c32064df6eabda9062ed6a89aab455e",
+    "policy_fingerprint": "4507a0a974e2cd96c7d1ce3b55cfa822ac67577da80b2b610d43440cd3d3e826"
+  }
+}
