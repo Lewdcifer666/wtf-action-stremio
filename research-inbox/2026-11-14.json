@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-14",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "The Siege of Jadotville",
+      "type": "movie",
+      "year": 2016,
+      "imdb_id": "tt3922798",
+      "reason": "Combat scenes are prominent, but the story is a military siege with substantial command and political scenes; independent whole-film criticism does not establish the required sustained action density and the profile penalizes military focus. Sources consulted: https://www.rottentomatoes.com/m/the_siege_of_jadotville ; https://en.wikipedia.org/wiki/The_Siege_of_Jadotville_%28film%29 ; https://www.imdb.com/title/tt3922798/technical/."
+    },
+    {
+      "title": "Blown Away",
+      "type": "movie",
+      "year": 1994,
+      "reason": "Bomb-defusal suspense and intermittent explosions are well supported, but reviews and the two-hour plot structure do not establish high physical-action density across the runtime. Sources consulted: https://www.rogerebert.com/reviews/blown-away-1994 ; https://www.timeout.com/movies/blown-away ; https://www.rottentomatoes.com/m/1052838-blown_away."
+    },
+    {
+      "title": "Predator",
+      "type": "movie",
+      "year": 1987,
+      "reason": "High-energy jungle action and science-fiction pursuit are documented, but available review evidence does not securely establish the profile's precise whole-runtime action-density and complete DNA dimensions; defer rather than invent missing measurements. Source consulted: https://www.rogerebert.com/reviews/predator-1987."
+    }
+  ]
+}
