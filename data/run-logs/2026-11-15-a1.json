@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-11-15-a1",
+  "timestamp": "2026-11-15T09:09:33.511Z",
+  "searched": 3,
+  "accepted": 1,
+  "rejected": 2,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt31349844",
+      "type": "movie",
+      "title": "Runner",
+      "match_score": 68
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "The Runner",
+      "year": 2026,
+      "type": "movie",
+      "reason": "Gal Gadot's 84-minute phone-directed running thriller is fast-moving, but independent whole-film reviews describe repetitive running and talking, weak tension and unexciting physical action. Speed alone is not sufficient evidence of action density.",
+      "category": "rejected"
+    },
+    {
+      "title": "Gumraah",
+      "year": 2023,
+      "type": "movie",
+      "reason": "A dual-suspect murder investigation drives its 127-minute structure; evidence supports isolated praised action scenes but not sustained action across the full film.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-11-15",
+    "packet_hash": "5c261f30f537fde19262eca65f5d53dbad0e66d262a7eaaec4225d9eb0bb07ed",
+    "research_commit": "51c8468b4e0b518d8ae4301212f58bd53f4cf4af",
+    "evaluated_base": "71c0008ad004fcb855e4330d654aad29f00b4909",
+    "policy_fingerprint": "4507a0a974e2cd96c7d1ce3b55cfa822ac67577da80b2b610d43440cd3d3e826"
+  }
+}
