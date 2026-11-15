@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-15",
+  "candidates": [
+    {
+      "imdb_id": "tt31349844",
+      "type": "movie",
+      "title": "Runner",
+      "year": 2026,
+      "reason": "A sustained organ-delivery pursuit gives this 98-minute action-comedy a recurring physical-action backbone, with road chases, multiple fights, shootouts and a hospital confrontation. The Guardian's whole-film review describes jam-packed action sequences, a car chase and a six-against-one fight; Cinema.de highlights Ritchson's forceful physical fighting, while Rotten Tomatoes characterizes the film as fast, over-the-top crowd-pleasing action. Strengths include a capable lead, vehicle pursuit and buddy chemistry. Limitations include formulaic cartel opponents, uneven tone, questionable effects and an overextended finale. Density is judged from whole-film review evidence rather than pace alone; military background does not make the story military-focused.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt31349844/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.theguardian.com/film/2026/sep/08/runner-review-alan-ritchson-owen-wilson",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://www.cinema.de/film/runner%2C13324145.html",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.rottentomatoes.com/m/runner_2026",
+          "purpose": "review"
+        },
+        {
+          "url": "https://watchguide.net/filme/action/runner/",
+          "purpose": "structure"
+        }
+      ],
+      "dna": {
+        "action_density": 7,
+        "action_intensity": 8,
+        "action_variety": 7,
+        "gunplay": 6,
+        "vehicle_action": 8,
+        "stunt_work": 8,
+        "chase_pursuit": 9,
+        "melee_combat": 8,
+        "destruction_spectacle": 5,
+        "mystery": 3,
+        "investigation": 1,
+        "conspiracy": 3,
+        "undercover_mole": 1,
+        "high_concept": 6,
+        "sci_fi_elements": 0,
+        "fantasy_elements": 0,
+        "deadly_game": 0,
+        "rule_discovery": 0,
+        "visual_quality": 6,
+        "retro_visual_style": 2,
+        "visual_spectacle": 6,
+        "pace_speed": 8,
+        "wtf_comedy": 5,
+        "badass_protagonist": 9,
+        "ensemble_charisma": 7,
+        "setting_variety": 7,
+        "suspense": 7,
+        "action_repetition": 4,
+        "military_focus": 2,
+        "superhero": 0,
+        "sports_fighting": 0,
+        "romance_focus": 2,
+        "drama_focus": 3
+      },
+      "dna_confidence": 0.73,
+      "dna_tags": []
+    }
+  ],
+  "research_rejections": [
+    {
+      "title": "The Runner",
+      "year": 2026,
+      "type": "movie",
+      "reason": "Gal Gadot's 84-minute phone-directed running thriller is fast-moving, but independent whole-film reviews describe repetitive running and talking, weak tension and unexciting physical action. Speed alone is not sufficient evidence of action density."
+    },
+    {
+      "title": "Gumraah",
+      "year": 2023,
+      "type": "movie",
+      "reason": "A dual-suspect murder investigation drives its 127-minute structure; evidence supports isolated praised action scenes but not sustained action across the full film."
+    }
+  ]
+}
