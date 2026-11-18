@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-11-18-a1",
+  "timestamp": "2026-11-18T09:08:43.154Z",
+  "searched": 3,
+  "accepted": 0,
+  "rejected": 3,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "Nighthawks",
+      "type": "movie",
+      "year": 1981,
+      "reason": "Reviews describe an exciting police-versus-terrorist thriller with notable stunts, but the consulted evidence does not establish sustained physical-action density across its full 99-minute runtime. Insufficient evidence for a complete, confidence-qualified 33-dimension DNA assessment.",
+      "category": "rejected"
+    },
+    {
+      "title": "The Taking of Pelham 123",
+      "type": "movie",
+      "year": 2009,
+      "reason": "Contemporary reviews describe a tense hostage-negotiation narrative, rapid editing, crashes and some shootouts. Fast presentation and suspense do not independently establish sustained action across the 106-minute runtime; the full DNA evidence requirement remains unmet.",
+      "category": "rejected"
+    },
+    {
+      "title": "Spy x Family Code: White",
+      "type": "movie",
+      "year": 2023,
+      "reason": "Independent reviews place the most substantial combat and spectacle in the final act, after an extended family-comedy and character-centered middle. This does not support the sustained action density required for this catalog.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "action:2026-11-18",
+    "packet_hash": "842ad3a0118a168e6bf76c6817f91a2e3bedc1bbfbe684813517093805cc5f6d",
+    "research_commit": "35b71dd723e200b4adbbdbca86fa806b4a04bdc0",
+    "evaluated_base": "a39ac039876f9e61daf76f34fd3df353f2ec08ce",
+    "policy_fingerprint": "4507a0a974e2cd96c7d1ce3b55cfa822ac67577da80b2b610d43440cd3d3e826"
+  }
+}
