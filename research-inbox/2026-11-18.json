@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-18",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "Nighthawks",
+      "type": "movie",
+      "year": 1981,
+      "reason": "Reviews describe an exciting police-versus-terrorist thriller with notable stunts, but the consulted evidence does not establish sustained physical-action density across its full 99-minute runtime. Insufficient evidence for a complete, confidence-qualified 33-dimension DNA assessment."
+    },
+    {
+      "title": "The Taking of Pelham 123",
+      "type": "movie",
+      "year": 2009,
+      "reason": "Contemporary reviews describe a tense hostage-negotiation narrative, rapid editing, crashes and some shootouts. Fast presentation and suspense do not independently establish sustained action across the 106-minute runtime; the full DNA evidence requirement remains unmet."
+    },
+    {
+      "title": "Spy x Family Code: White",
+      "type": "movie",
+      "year": 2023,
+      "reason": "Independent reviews place the most substantial combat and spectacle in the final act, after an extended family-comedy and character-centered middle. This does not support the sustained action density required for this catalog."
+    }
+  ]
+}
