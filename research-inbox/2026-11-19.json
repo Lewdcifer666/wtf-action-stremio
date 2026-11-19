@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-19",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "Apollo Has Fallen",
+      "type": "series",
+      "year": 2026,
+      "reason": "The eight-episode action-thriller's espionage, virus conspiracy and mercenary premise are corroborated by Canal+ and series listings, but available material does not independently establish sustained physical action across the whole season; do not infer action density from genre or promotional descriptions."
+    },
+    {
+      "title": "Duel",
+      "type": "movie",
+      "year": 1971,
+      "reason": "Reviews substantiate sustained truck pursuit and suspense, but the single repeated road-threat mode limits action variety and setting variety; without enough corroboration to complete the required independent 33-dimension DNA assessment and guardrails, do not stage as a candidate."
+    },
+    {
+      "title": "Kite",
+      "type": "movie",
+      "year": 1998,
+      "reason": "Available reviews describe assassin violence and animated action, but the required whole-runtime action-density evidence and complete DNA assessment remain insufficient; adult sexual-violence material also requires careful context rather than an unsupported fit claim."
+    }
+  ]
+}
