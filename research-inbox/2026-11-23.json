@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "genre": "action",
+  "research_date": "2026-11-23",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "CHiPs",
+      "type": "movie",
+      "year": 2017,
+      "imdb_id": "tt0493405",
+      "reason": "Reviews document recurring motorcycle pursuits, shootouts and fights, but also extensive comedy and investigation; the available evidence does not establish sufficiently sustained whole-runtime action density or a complete defensible 33-dimension DNA assessment."
+    },
+    {
+      "title": "The Gorge",
+      "type": "movie",
+      "year": 2025,
+      "reason": "Reviews explicitly describe a romance-focused first act followed by an action-heavy second half, so whole-runtime sustained action density is not established."
+    },
+    {
+      "title": "Stormbreaker",
+      "type": "movie",
+      "year": 2006,
+      "reason": "Reviews corroborate several chases and practical action sequences, but do not establish sustained whole-runtime action density; critical assessments also note limited suspense and uneven production quality."
+    }
+  ]
+}
